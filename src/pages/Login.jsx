@@ -1,5 +1,4 @@
 import React from 'react'
-import addAvatar from '../img/addAvatar.png'
 
 export const Login = () => {
   return (
