@@ -4,7 +4,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     .formWrapper{
         background-color: white;
         padding: 20px 60px;
@@ -13,18 +12,15 @@
         flex-direction: column;
         gap: 10px;
         align-items: center;
-
         .logo{
             color: #5d5b8d;
             font-weight: bold;
             font-size: 24px;
         }
-
         .title{
             color: #2f2d74;
             font-size: 18px;
         }
-
         form{
             display: flex;
             flex-direction: column;
@@ -35,7 +31,11 @@
                 border: none;
                 border-bottom: 1px solid #a7bcff;
             }
-
+            label{
+                img{
+                    cursor: pointer;
+                }
+            }
             button{
                 background-color: #7b96ec;
                 color: white;
