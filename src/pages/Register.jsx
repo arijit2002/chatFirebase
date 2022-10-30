@@ -7,7 +7,7 @@ export const Register = () => {
             <span className='logo'>ChatApp</span>
             <span className='title'>Register</span>
             <form>
-                <input type="text" placeholder="display name" />
+                <input type="text" placeholder="name" />
                 <input type="email" placeholder="email" />
                 <input type="password" placeholder="password" />
                 <input type="file" />
