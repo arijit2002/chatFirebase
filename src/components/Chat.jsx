@@ -1,4 +1,5 @@
 import React from 'react'
+import {Messages} from './Messages'
 import Cam from '../img/video-camera.png'
 import Add from '../img/add-user.png'
 import More from '../img/more.png'
@@ -14,6 +15,7 @@ export const Chat = () => {
           <img src={More} alt='More' />
         </div>
       </div>
+      <Messages />
     </div>
   )
 }
