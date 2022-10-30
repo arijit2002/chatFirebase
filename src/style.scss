@@ -151,6 +151,11 @@
                     height: 50px;
                     border-radius: 50%;
                 }
+
+                .userChatInfo{
+                    span{font-size: 18px;font-weight: 500;}
+                    p{font-size: 14;color: lightgray;}
+                }
             }
         }
         .chat{
