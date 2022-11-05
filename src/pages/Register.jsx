@@ -2,7 +2,6 @@ import React from 'react'
 import addAvatar from '../img/addAvatar.png'
 import {  createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from '../firebase'
-import { async } from '@firebase/util';
 
 export const Register = () => {
   const handleSubmit = async (e)=>{
@@ -12,9 +11,11 @@ export const Register = () => {
     const password = e.target[2].value;
     const file = e.target[3].files[0];
 
+    try{
+      const res = await createUserWithEmailAndPassword(auth, email, password)
+    }catch(err){
 
-    const res = createUserWithEmailAndPassword(auth, email, password)
-
+    };
     }
 
   return (
