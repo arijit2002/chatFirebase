@@ -40,6 +40,7 @@ export const Register = () => {
               email,
               photoURL: downloadURL,
             });
+            await setDoc(doc(db,"userChats", res.user.uid),{});
           });
         }
       );
