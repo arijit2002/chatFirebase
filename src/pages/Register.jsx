@@ -7,7 +7,6 @@ import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import { doc, setDoc } from "firebase/firestore"; 
 
 import { useState } from 'react';
-import { async } from '@firebase/util';
 
 export const Register = () => {
   const [err, setErr] = useState(false);
